@@ -6,7 +6,7 @@ from dataframe_maker import dataframe_maker
 
 base_url = "https://www.airbnb.co.uk"
 nav_url = "/s/Melbourne--Australia/homes"                    # Enter here the city link (default: melbourne)
-user_url = "https://www.airbnb.com/users/show/99824610"      # Enter here the user profile url
+user_url = input()      # Enter here the user profile url
 
 df = dataframe_maker(base_url, nav_url)
 df.sort_values("No. of reviews", axis = 0, ascending = False, inplace = True, na_position ='last') 
