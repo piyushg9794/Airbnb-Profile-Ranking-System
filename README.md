@@ -9,8 +9,10 @@ Ranking Airbnb user profile by web scraping
 
 Input: enter your user url
 
-Output: Your name
-        no. of reviews
-        among top x% users
+Output: 
+
+        -Your name
+        -no. of reviews
+        -among top x% users
 
 ![](https://github.com/piyushg9794/Airbnb-Profile-Ranking-System/blob/master/ss.png)
